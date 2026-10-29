@@ -1,0 +1,16 @@
+{
+  "name": "cursor-plugin-probe",
+  "owner": { "name": "Probe" },
+  "metadata": {
+    "description": "Test marketplace with one harmless probe plugin.",
+    "version": "0.1.0",
+    "pluginRoot": "plugins"
+  },
+  "plugins": [
+    {
+      "name": "plugin-probe",
+      "source": "plugin-probe",
+      "description": "Launches two bundled MCP executables (one plain, one through Git LFS)."
+    }
+  ]
+}
