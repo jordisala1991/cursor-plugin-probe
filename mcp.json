@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "probe-plain": {
+      "command": "${CURSOR_PLUGIN_ROOT}/bin/probe-go.exe",
+      "args": ["--via", "github-plain"],
+      "env": { "PROBE_ENV": "github-plain" }
+    },
+    "probe-lfs": {
+      "command": "${CURSOR_PLUGIN_ROOT}/bin/probe-bun.exe",
+      "args": ["--via", "github-lfs"],
+      "env": { "PROBE_ENV": "github-lfs" }
+    }
+  }
+}

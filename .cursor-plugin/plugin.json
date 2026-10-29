@@ -1,0 +1,7 @@
+{
+  "name": "plugin-probe",
+  "version": "0.1.0",
+  "displayName": "Plugin probe",
+  "description": "Harmless probe: checks that a plugin installed from GitHub can launch MCP executables bundled in it.",
+  "skills": "skills"
+}
